@@ -1,0 +1,22 @@
+.contain{
+    padding-top: 50px;
+    text-align: center; 
+   
+    
+}
+.date{
+    display: inline;
+    
+}
+.btn{
+    margin-top: 10px;
+}
+body{
+ background-image: url(img/zodiac.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+h1{
+    font-family: 'Rye', cursive;   
+    color: #656F72
+}
