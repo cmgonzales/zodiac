@@ -16,7 +16,10 @@ body{
  background-repeat: no-repeat;
  background-size: cover;
  width: 100%;
+
 }
+
+
 h1{
     font-family: 'Rye', cursive;   
     color: #656F72
@@ -31,6 +34,10 @@ img{
 #foo{
     width: 35%;
     margin: 0 auto;
+    
+}
+body, html{
+    height: 100%;
 }
 
 @media screen and (max-width: 1000px ){
@@ -59,6 +66,23 @@ img{
 
 @media screen and (max-width: 680px ){
     img{
-    height: 140px;
+    height: 190px;
+    
+    }
+
+    @media screen and (max-width: 680px ){
+        img{
+        height: 190px;
+        
+        }
+}
+@media screen and (max-width: 655px ){
+    #foo{
+    width: 40%;
+    }
+}
+@media screen and (max-width: 441px ){
+    #foo{
+    width: 55%;
     }
 }
