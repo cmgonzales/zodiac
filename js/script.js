@@ -68,6 +68,12 @@ function clickme(){
     } 
 
      function aquarius(){
+      
+      var dv = document.getElementById("foo")
+
+      while (dv.hasChildNodes()){
+          dv.removeChild(dv.lastChild);
+      }
 
       var x = document.createElement("IMG");
       x.setAttribute("src", "img/aquarius.jpg");
@@ -75,47 +81,121 @@ function clickme(){
   }
     
       function aries(){
+
+      var dv = document.getElementById("foo")
+      
+      while (dv.hasChildNodes()){
+               
+        dv.removeChild(dv.lastChild);
+      }
         var x = document.createElement("IMG");
         x.setAttribute("src", "img/aries.jpg");
         document.getElementById("foo").appendChild(x);
       }
 
       function taurus(){
+        
+      var dv = document.getElementById("foo")
+      
+      while (dv.hasChildNodes()){
+               
+        dv.removeChild(dv.lastChild);
+      }
+
         var x = document.createElement("IMG");
         x.setAttribute("src", "img/taurus.jpg");
         document.getElementById("foo").appendChild(x);
       }
       function Gemini(){
+  
+      var dv = document.getElementById("foo")
+      
+      while (dv.hasChildNodes()){
+               
+        dv.removeChild(dv.lastChild);
+      }
         var x = document.createElement("IMG");
         x.setAttribute("src", "img/gemini.jpg");
         document.getElementById("foo").appendChild(x);
       }
       function cancer(){
+
+        var dv = document.getElementById("foo")
+        
+        while (dv.hasChildNodes()){
+                 
+          dv.removeChild(dv.lastChild);
+        }
+
         var x = document.createElement("IMG");
         x.setAttribute("src", "img/cancer.jpg");
         document.getElementById("foo").appendChild(x);
       }
       function leo(){
+
+        var dv = document.getElementById("foo")
+        
+        while (dv.hasChildNodes()){
+                 
+          dv.removeChild(dv.lastChild);
+        }
+
         var x = document.createElement("IMG");
         x.setAttribute("src", "img/leo.jpg");
         document.getElementById("foo").appendChild(x);
       }
       function virgo(){
+
+        
+      var dv = document.getElementById("foo")
+      
+      while (dv.hasChildNodes()){
+               
+        dv.removeChild(dv.lastChild);
+      }
+
         var x = document.createElement("IMG");
         x.setAttribute("src", "img/virgo.jpg");
         document.getElementById("foo").appendChild(x);
       }
       function libra(){
+
+        
+      var dv = document.getElementById("foo")
+      
+      while (dv.hasChildNodes()){
+               
+        dv.removeChild(dv.lastChild);
+      }
+
         var x = document.createElement("IMG");
         x.setAttribute("src", "img/libra.jpg");
         document.getElementById("foo").appendChild(x);
       }
       function scorpio(){
+
+        
+      var dv = document.getElementById("foo")
+      
+      while (dv.hasChildNodes()){
+               
+        dv.removeChild(dv.lastChild);
+      }
+
         var x = document.createElement("IMG");
         x.setAttribute("src", "img/scorpio.jpg");
         document.getElementById("foo").appendChild(x);
       }
       function sagittarius(){
+
+        
+      var dv = document.getElementById("foo")
+      
+      while (dv.hasChildNodes()){
+               
+        dv.removeChild(dv.lastChild);
+      }
+
         var x = document.createElement("IMG");
         x.setAttribute("src", "img/sagttarius.jpg");
         document.getElementById("foo").appendChild(x);

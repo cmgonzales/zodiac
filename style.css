@@ -32,3 +32,33 @@ img{
     width: 35%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1000px ){
+    img{
+    height: 300px;
+    }
+}
+
+@media screen and (max-width: 900px ){
+    img{
+    height: 250px;
+    }
+}
+
+@media screen and (max-width: 800px ){
+    img{
+    height: 220px;
+    }
+}
+
+@media screen and (max-width: 750px ){
+    img{
+    height: 180px;
+    }
+}
+
+@media screen and (max-width: 680px ){
+    img{
+    height: 140px;
+    }
+}
