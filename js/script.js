@@ -9,35 +9,35 @@ function clickme(){
      aquarius();
 
 
-    }else if(variables() >= 321 && variables() <= 420){
+    }if(variables() >= 321 && variables() <= 420){
       
       aries();
     
-    }else if(variables() >= 421 && variables() <= 520){
+    }if(variables() >= 421 && variables() <= 520){
 
       taurus();
       
-    }else if(variables() >= 521 && variables() <= 620){
+    }if(variables() >= 521 && variables() <= 620){
     
       Gemini();
           
-    }else if(variables() >= 621 && variables() <= 720){
+    }if(variables() >= 621 && variables() <= 720){
         
        cancer();
               
-    }else if(variables() >= 721 && variables() <= 821){
+    }if(variables() >= 721 && variables() <= 821){
       
       leo();
             
-    }else if(variables() >= 822 && variables() <= 922){
+    }if(variables() >= 822 && variables() <= 922){
       
       virgo();
             
-     }else if(variables() >= 923 && variables() <= 1022){
+     }if(variables() >= 923 && variables() <= 1022){
       
       libra();
       
-    }else if (variables() >= 101 && variables() <= 121 
+    }if (variables() >= 101 && variables() <= 121 
     
     || variables() >=1221 && variables() <= 1231){
       
@@ -46,7 +46,6 @@ function clickme(){
     }else{
       
       sagittarius();
-
     }
      
     function variables(){
