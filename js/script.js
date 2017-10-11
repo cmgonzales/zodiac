@@ -1,10 +1,10 @@
 function clickme(){
 
     variables();
-    
-    
 
-    if(variables() >= 120 && variables() <= 218 ){
+    console.log(variables());
+
+     if(variables() >= 120 && variables() <= 218 ){
   
      aquarius();
 
@@ -36,17 +36,18 @@ function clickme(){
      }else if(variables() >= 923 && variables() <= 1022){
       
       libra();
-            
-     }else if(variables() >= 1023 && variables() <= 1122){
       
-      scorpio();
-            
+    }else if (variables() >= 101 && variables() <= 121 
+    
+    || variables() >=1221 && variables() <= 1231){
+      
+      capricorn();
+    
     }else{
       
       sagittarius();
-    
+
     }
-  }   
      
     function variables(){
     
@@ -76,7 +77,9 @@ function clickme(){
       }
 
       var x = document.createElement("IMG");
+      
       x.setAttribute("src", "img/aquarius.jpg");
+      
       document.getElementById("foo").appendChild(x);
   }
     
@@ -89,7 +92,9 @@ function clickme(){
         dv.removeChild(dv.lastChild);
       }
         var x = document.createElement("IMG");
+      
         x.setAttribute("src", "img/aries.jpg");
+      
         document.getElementById("foo").appendChild(x);
       }
 
@@ -103,9 +108,12 @@ function clickme(){
       }
 
         var x = document.createElement("IMG");
+      
         x.setAttribute("src", "img/taurus.jpg");
+      
         document.getElementById("foo").appendChild(x);
       }
+      
       function Gemini(){
   
       var dv = document.getElementById("foo")
@@ -115,7 +123,9 @@ function clickme(){
         dv.removeChild(dv.lastChild);
       }
         var x = document.createElement("IMG");
+      
         x.setAttribute("src", "img/gemini.jpg");
+      
         document.getElementById("foo").appendChild(x);
       }
       function cancer(){
@@ -128,7 +138,9 @@ function clickme(){
         }
 
         var x = document.createElement("IMG");
+      
         x.setAttribute("src", "img/cancer.jpg");
+      
         document.getElementById("foo").appendChild(x);
       }
       function leo(){
@@ -201,9 +213,24 @@ function clickme(){
         document.getElementById("foo").appendChild(x);
       }
 
+    function capricorn(){
+        
+                
+    var dv = document.getElementById("foo")
+              
+    while (dv.hasChildNodes()){
+                       
+    dv.removeChild(dv.lastChild);
+     }
+        
+                var x = document.createElement("IMG");
+                x.setAttribute("src", "img/capricorn.jpg");
+                document.getElementById("foo").appendChild(x);
+              }
 
 
 
+            }
 
 
 
