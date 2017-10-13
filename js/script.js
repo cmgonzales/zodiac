@@ -43,9 +43,12 @@ function clickme(){
       
       capricorn();
     
-    }else{
+    }if(variables() >= 1123 && variables <= 1220){
       
       sagittarius();
+    }if(variables() >= 219 && variables <= 320){
+    
+      pi();
     }
      
     function variables(){
@@ -97,6 +100,21 @@ function clickme(){
         document.getElementById("foo").appendChild(x);
       }
 
+      function pi(){
+        
+              var dv = document.getElementById("foo")
+              
+              while (dv.hasChildNodes()){
+                       
+                dv.removeChild(dv.lastChild);
+              }
+                var x = document.createElement("IMG");
+              
+                x.setAttribute("src", "img/pi.jpg");
+              
+                document.getElementById("foo").appendChild(x);
+              }
+
       function taurus(){
         
       var dv = document.getElementById("foo")
@@ -114,7 +132,7 @@ function clickme(){
       }
       
       function Gemini(){
-  
+   
       var dv = document.getElementById("foo")
       
       while (dv.hasChildNodes()){
@@ -166,7 +184,9 @@ function clickme(){
       }
 
         var x = document.createElement("IMG");
+        
         x.setAttribute("src", "img/virgo.jpg");
+        
         document.getElementById("foo").appendChild(x);
       }
       function libra(){
@@ -180,7 +200,9 @@ function clickme(){
       }
 
         var x = document.createElement("IMG");
+        
         x.setAttribute("src", "img/libra.jpg");
+        
         document.getElementById("foo").appendChild(x);
       }
       function scorpio(){
@@ -208,9 +230,12 @@ function clickme(){
       }
 
         var x = document.createElement("IMG");
+      
         x.setAttribute("src", "img/sagttarius.jpg");
+      
         document.getElementById("foo").appendChild(x);
-      }
+      
+      } 
 
     function capricorn(){
         
