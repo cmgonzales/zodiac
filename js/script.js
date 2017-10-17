@@ -47,7 +47,7 @@ function clickme(){
       
       sagittarius();
       
-    }if(variables() >= 219 && variables <= 321){
+    }if(variables() >= 219 && variables <= 320){
     
       pi();
     }
