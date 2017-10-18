@@ -4,7 +4,7 @@ function clickme(){
 
     console.log(variables());
 
-     if(variables() >= 120 && variables() <= 218 ){
+     if(variables() >= 121 && variables() <= 218 ){
   
      aquarius();
 
