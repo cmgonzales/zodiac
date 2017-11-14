@@ -69,7 +69,7 @@ body, html{
     height: 190px;
     
     }
-
+}
     @media screen and (max-width: 680px ){
         img{
         height: 190px;
@@ -86,3 +86,14 @@ body, html{
     width: 55%;
     }
 }
+@media screen and (min-width: 1319px ){
+    #foo{
+    width: 30%;
+    }
+}
+@media screen and (min-width: 1500px ){
+    #foo{
+    width: 25%;
+    }
+}
+
