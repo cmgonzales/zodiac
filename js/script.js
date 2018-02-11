@@ -4,12 +4,34 @@ function clickme(){
 
     console.log(variables());
 
+ 
+    if (variables() >= 1221){
+
+      
+      capricorn();
+    }
+    if (variables() >= 1123 && variables() <= 1220){
+      
+      
+      sagittarius();
+      
+    } 
+
+    if (variables() >= 101 && variables() <= 119){
+      capricorn();
+
+    }
+
      if(variables() >= 121 && variables() <= 218 ){
   
      aquarius();
 
 
-    }if(variables() >= 321 && variables() <= 420){
+    }if(variables() >= 219 && variables() <= 320){
+    
+      pi();
+    }
+    if(variables() >= 321 && variables() <= 420){
       
       aries();
     
@@ -37,20 +59,15 @@ function clickme(){
       
       libra();
       
-    }if (variables() >= 101 && variables() <= 121 
+    }if (variables() >= 1023 && variables() <= 1122)
+
+    scorpio();
+
+   } 
     
-    || variables() >=1221 && variables() <= 1231){
-      
-      capricorn();
     
-    }if(variables() >= 1123 && variables <= 1220){
-      
-      sagittarius();
-      
-    }if(variables() >= 219 && variables <= 320){
-    
-      pi();
-    }
+
+
      
     function variables(){
     
@@ -220,32 +237,23 @@ function clickme(){
         x.setAttribute("src", "img/scorpio.jpg");
         document.getElementById("foo").appendChild(x);
       }
-      function sagittarius(){
 
-        
+      function sagittarius(){
       var dv = document.getElementById("foo")
-      
-      while (dv.hasChildNodes()){
+     while (dv.hasChildNodes()){
                
         dv.removeChild(dv.lastChild);
       }
-
-        var x = document.createElement("IMG");
-      
+     var x = document.createElement("IMG");
         x.setAttribute("src", "img/sagttarius.jpg");
-      
-        document.getElementById("foo").appendChild(x);
+       document.getElementById("foo").appendChild(x);
       
       } 
 
     function capricorn(){
-        
-                
     var dv = document.getElementById("foo")
-              
-    while (dv.hasChildNodes()){
-                       
-    dv.removeChild(dv.lastChild);
+        while (dv.hasChildNodes()){
+        dv.removeChild(dv.lastChild);
      }
         
                 var x = document.createElement("IMG");
@@ -255,7 +263,7 @@ function clickme(){
 
 
 
-            }
+            
 
 
 
